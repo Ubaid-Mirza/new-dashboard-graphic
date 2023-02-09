@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 0px;
+    background-image: url(/images/bg.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navi {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+}
+
+/*.lines{
+    font-size: 30px;
+    cursor: pointer;
+}
+.close{
+    font-size: 30px;
+    text-align: end;
+    z-index: 999;
+    color: black;
+    font-weight: bold;
+    padding: 3px 10px;
+    cursor: pointer;   
+}*/
+.aside {
+    max-width: 300px;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    transition: 0.3s ease-in-out;
+}
+
+/*.aside:hover .accordion{
+    width: 100%;
+}*/
+.accordion-header {
+    text-align: justify;
+}
+
+.accordion-item {
+    background-color: aliceblue;
+    color: white;
+    margin-top: 10px;
+    border: none;
+}
+
+.accordion-button {
+    background-color: aliceblue;
+    color: rgb(54, 48, 48);
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #5f5d5d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion {
+    background-color: aliceblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.7s ease-in-out;
+}
+
+.fa {
+    font-size: 30px !important;
+}
+
+.accordion-button::after {
+    margin-left: 10px;
+    border-radius: 50px;
+}
+
+.accordion-button:focus {
+    z-index: none;
+    border-color: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: aliceblue;
+    color: black
+}
+
+.nav-link {
+    color: rgb(224, 63, 90);
+}
+
+.list {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.main {
+    width: 75%;
+    padding: 0px;
+    margin: 0px;
+}
